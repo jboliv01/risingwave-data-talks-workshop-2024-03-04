@@ -133,8 +133,9 @@ source commands.sh
 start-cluster
 
 # Setup python
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv .venv
+#source .venv/bin/activate
+source .venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
